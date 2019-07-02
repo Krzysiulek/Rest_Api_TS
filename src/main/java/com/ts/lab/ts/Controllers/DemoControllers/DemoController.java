@@ -15,7 +15,7 @@ public class DemoController {
         return student;
     }
 
-//    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin
     @PostMapping("")
     public Student demoPost(@RequestBody Student student){
         return student;
