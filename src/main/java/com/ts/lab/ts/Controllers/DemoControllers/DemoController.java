@@ -17,7 +17,7 @@ public class DemoController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("")
-    public Student demoPost(RequestBody requestBody){
-        return new Student(123, "dupa", "dupa", 123, "dupadsadas", "dasfahf;");
+    public Student demoPost(@RequestBody Student student){
+        return new Student(123, "dupa", "dupa", 123, "dupadsadaheroks", "dasfahf;");
     }
 }
