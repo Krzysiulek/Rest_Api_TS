@@ -19,8 +19,6 @@ public class StudentsController {
         return studentsRepository.findAll();
     }
 
-
-
     /*
         Żeby były ze dwie klasy ze świata rzeczywistego (PUT, POST, DELETE, GET)
 
